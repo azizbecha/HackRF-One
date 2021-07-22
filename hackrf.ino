@@ -1,6 +1,7 @@
 /*
 -------------  README  --------------
 -------------------------------------
+
 Project: HackRF One Remake By Arduino Nano 
 Author: Aziz Becha
 Concept: Hack Cars Easily Using This Project
@@ -12,23 +13,22 @@ Follow My Github to Receive The Updates
 ------------------------------------
 */
 
+// Include the IRremote Library (https://github.com/Arduino-IRremote/Arduino-IRremote)
 #include <IRremote.h>
 
-/* buttons */
+// Define buttons
 int BUTTON1 = 3;
 int BUTTON2 = 4;
 int BUTTON3 = 5;
 int BUTTON4 = 6;
-/* ---------- */
 
-/* LEDS */
+// Define LEDs
 int LED_INDICATOR = 13;
-/* ---------------- */
  
-/* emitters and receivers  */
+// Define emitters & recivers
 int receiver = 8;
 // int emitter = 9; 
-/* ---------------- */
+
 
 /*IRsend irsend(emitter);*/
 IRrecv irrecv(receiver); 
@@ -117,4 +117,6 @@ if (irrecv.decode(&results)) {
   Serial.println("-----  Happy Hacking  -----");
   Serial.println("-------------------------------------");
     }
-  /* Project Coded BY Aziz BeCha (Author) And IR remote Library */
+
+/* Project Coded BY Aziz BeCha (Author) And IR remote Library */
+/* Github: https://github.com/AzizVirus */
