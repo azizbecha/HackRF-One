@@ -4,7 +4,7 @@
 
 Project: HackRF One Remake By Arduino Nano 
 Author: Aziz Becha
-Concept: Hack Cars Easily Using This Project
+Concept: Hack Cars Easily by capturing the remote's radio signals
 Github profile: https://github.com/AzizVirus
 GitHub Repository: https://github.com/AzizVirus/HackRF-One
 Follow My Github to Receive The Updates
