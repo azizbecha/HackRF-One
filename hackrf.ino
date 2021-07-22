@@ -5,8 +5,8 @@
 Project: HackRF One Remake By Arduino Nano 
 Author: Aziz Becha
 Concept: Hack Cars Easily Using This Project
-Licence: Project Saved Under Aziz Becha
-Github profile: github.com/AzizVirus
+Github profile: https://github.com/AzizVirus
+GitHub Repository: https://github.com/AzizVirus/HackRF-One
 Follow My Github to Receive The Updates
 
 ------------------------------------
