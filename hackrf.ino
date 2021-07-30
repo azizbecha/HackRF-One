@@ -110,7 +110,7 @@ if (irrecv.decode(&results)) {
    delay(300);
   Serial.println("Github: github.com/AzizVirus");
    delay(300);
-  Serial.println("---  Sniffing Mode Was Started ---");
+  Serial.println("---  Sniffing Mode Started ---");
   delay(300);
   Serial.println("The Captured Handshakes Will Be Displayed Here");
    delay(300);
